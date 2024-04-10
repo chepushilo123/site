@@ -1,0 +1,39 @@
+section {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar {
+    width: 15%;
+    padding: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.news {
+    width: 30%;
+    background-color: red;
+
+    padding: 10px;
+}
+
+.navigation {
+    width: 15%;
+
+    background-color: green;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    color: lightgray;
+    font-size: 20px;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
