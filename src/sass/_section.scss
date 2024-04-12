@@ -1,28 +1,37 @@
 section {
     display: flex;
-    margin-top: 150px;
+    margin-top: 50px;
     justify-content: center;
     gap: 20px;
 }
 
+p {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+}
+
 .navbar {
-    width: 15%;
+    width: 10%;
+    max-height: 240px;
     padding: 15px;
     border: 1px solid lightgrey;
     border-radius: 10px;
 }
 
 .news {
-    width: 30%;
-    background-color: red;
-
-    padding: 10px;
+    width: 40%;
 }
 
 .navigation {
-    width: 15%;
-
-    background-color: green;
+    width: 10%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    position: relative;
 }
 
 li {
@@ -32,8 +41,50 @@ li {
     font-size: 20px;
 }
 
-.roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
+.news_post {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.news_post_user {
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.user_photo {
+    width: 50px;
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+
+.fullname {
+    color: black;
+    font-weight: 900;
+    margin: 0;
+}
+
+.nickname {
+    font-size: 15px;
+    color: grey;
+}
+
+.post {
+    font-size: 20px;
+}
+
+.content {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
     font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.img_content {
+    max-width: 100%;
+    border-radius: 10px;
 }
